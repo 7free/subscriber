@@ -33,7 +33,7 @@ $(window).resize(function() {
 function SYES() {
   $(".YESNO").fadeOut(1500, function() {
     $(".YESNO").attr("style", "display: none !important;");
-    $("#BTNADD").html("Add <strong>" + WANTED + " free Subsribe</strong>")
+    $("#BTNADD").html("Add <strong>" + WANTED + " free Subscribe</strong>")
     $("#BTNADD").fadeIn(1500);
   })
 }
@@ -52,7 +52,7 @@ function SADDB() {
 
   $(".freerobux777").fadeIn(1500);
 
-  $("#step34").html("<strong>Step 3:</strong> Adding your <strong>free Subsribe</strong>!")
+  $("#step34").html("<strong>Step 3:</strong> Adding your <strong>free Subsrcibe</strong>!")
 
   $("#CONS").fadeIn(1500);
 
@@ -83,7 +83,7 @@ function SADDB() {
         }, 9000)
 
         setTimeout(function() {
-          $("#CONS").html("Disconnecting from <strong>Subsribe servers</strong>...")
+          $("#CONS").html("Disconnecting from <strong>Subscribe servers</strong>...")
         }, 14000)
   }, 1500)
 
